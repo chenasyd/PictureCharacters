@@ -1,0 +1,28 @@
+# Picture Characters Configuration
+# Define your custom Unicode picture characters here
+characters:
+  # Basic shapes
+  circle: "○"
+  square: "□"
+  triangle: "△"
+  
+  # Playing card suits
+  heart: "♥"
+  diamond: "♦"
+  club: "♣"
+  spade: "♠"
+  
+  # Chess pieces
+  chess_king: "♔"
+  chess_queen: "♕"
+  
+  # Weather symbols
+  sun: "☀"
+  cloud: "☁"
+  
+  # Private Use Area characters (may require custom font)
+  custom1: "\uE000"
+  custom2: "\uE001"
+  custom3: "\uE002"
+  
+  # Add your own custom characters below

@@ -1,0 +1,19 @@
+name: PictureCharacters
+version: '1.0-SNAPSHOT'
+main: org.a.pictureCharacters.PictureCharacters
+api-version: '1.20'
+softdepend: [PlaceholderAPI]
+
+commands:
+  picturecharsreload:
+    description: Reload the plugin configuration
+    usage: /picturecharsreload
+    permission: picturechars.reload
+
+permissions:
+  picturechars.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  picturechars.use:
+    description: Allows using picture character placeholders
+    default: true
